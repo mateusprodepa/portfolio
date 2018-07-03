@@ -1,0 +1,73 @@
+.sidenav {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #1e2328;
+    /* background:
+radial-gradient(circle, transparent 20%, #1e2328 20%, #1e2328 80%, transparent 80%, transparent),
+radial-gradient(circle, transparent 20%, #1e2328 20%, #1e2328 80%, transparent 80%, transparent) 50px 50px,
+linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+background-color: #1e2328;
+background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px; */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    white-space: nowrap;
+    word-wrap: none;
+    overflow: none;
+}
+
+.sidenav div a {
+    padding: 8px 8px 8px 4px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Lato";
+    color: var(--verde);
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* .sidenav div a::before, */
+.sidenav div a::after {
+  content: "";
+  /* background: linear-gradient(to right, #504bff, #4cfa63);
+  -webkit-background-clip: text; */
+  background-color: #504bff;
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  transition: width .20s ease-out;
+  will-change: width;
+  bottom: 0;
+}
+
+/* .sidenav div a::before {
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.sidenav div a::after {
+  right: 50%;
+  /* transform: translateX(50%); */
+}
+
+.sidenav div a:hover::after,
+.sidenav div a:hover::before {
+  width: 100%;
+  transition-duration: .35s;
+}
+
+.sidenav div a:hover {
+    color: #f1f1f1;
+}
+
+#main {
+    transition: margin-right .5s;
+    padding: 16px;
+}
