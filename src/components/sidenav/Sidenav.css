@@ -1,6 +1,6 @@
 .sidenav {
     height: 100%;
-    width: 350px;
+    width: 285px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -22,9 +22,9 @@ background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px; */
 }
 
 .sidenav div a {
-    padding: 8px 8px 8px 4px;
+    padding: 4px 4px 4px 4px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Lato";
     color: var(--verde);
     display: block;

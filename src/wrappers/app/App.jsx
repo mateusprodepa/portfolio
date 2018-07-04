@@ -48,7 +48,6 @@ class App extends Component {
                   <li>Lifeless</li>
                   <li>Node.js</li>
                 </ul>
-                <h4>===================================</h4>
               </InfoBox>
               <InfoBox type="inline">
                 <h4>Características: </h4>
@@ -56,7 +55,6 @@ class App extends Component {
                   <li>Nível de Japônes: Avançado</li>
                   <li>Nível de Inglês: Avançado</li>
                 </ul>
-                <h4>===================================</h4>
               </InfoBox>
             </FlexWrapper>
             <Blog>

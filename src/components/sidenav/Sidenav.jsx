@@ -11,7 +11,7 @@ class Sidenav extends Component {
           sideNav={ this }/>
         <div style={{
             backgroundColor: '#1e2328',
-            padding: 14,
+            padding: 16,
           }}>
           <a href="#teste">Início</a>
           <a href="#teste">Quem sou eu?</a>

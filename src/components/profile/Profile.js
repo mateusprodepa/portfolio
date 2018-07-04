@@ -12,7 +12,7 @@ class Profile extends Component {
     return (
       <div className="profile">
         <div className="profile__card">
-          <img src={ Me } alt="profileImg" className="profile__image"></img>
+          <img src="http://via.placeholder.com/400x400" alt="profileImg" className="profile__image"></img>
           <h2 className="profile__title">Front-end Developer</h2>
           <span>Portfólio dele 👆</span>
         </div>

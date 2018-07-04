@@ -9,8 +9,8 @@ class NavigationBar extends Component {
   }
 
   openNav = () => {
-    ReactDOM.findDOMNode(this.props.sideNav).style.width = '350px';
-    ReactDOM.findDOMNode(this.props.main).style.marginRight = "350px";
+    ReactDOM.findDOMNode(this.props.sideNav).style.width = '285px';
+    ReactDOM.findDOMNode(this.props.main).style.marginRight = "285px";
     let isOpened = this.state.isOpen;
     this.setState({ isOpen: !isOpened });
   }

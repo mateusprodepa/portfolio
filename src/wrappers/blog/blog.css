@@ -22,6 +22,7 @@
 }
 
 .blog p {
+  text-align: justify;
   font-size: 1.5rem;
   font-family: Lato;
   color: #1e2328;
