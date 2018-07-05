@@ -1,0 +1,10 @@
+.projeto {
+  display: inline-block;
+  max-width: calc(100vw / 5);
+  /* background-color: var(--vermelho) */
+}
+
+.projeto img {
+  max-width: calc(100vw / 2);
+  min-width: 120px;
+}

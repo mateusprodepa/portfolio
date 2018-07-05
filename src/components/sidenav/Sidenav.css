@@ -2,7 +2,7 @@
     height: 100%;
     width: 285px;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     right: 0;
     background-color: #1e2328;
@@ -22,49 +22,50 @@ background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px; */
 }
 
 .sidenav div a {
-    padding: 4px 4px 4px 4px;
+    padding: 4px 4px 4px 8px;
     text-decoration: none;
     font-size: 20px;
     font-family: "Lato";
     color: var(--verde);
     display: block;
+    z-index: 2;
     transition: 0.3s;
     margin-bottom: 20px;
     position: relative;
 }
 
-/* .sidenav div a::before, */
-.sidenav div a::after {
+.sidenav div a::before {
   content: "";
-  /* background: linear-gradient(to right, #504bff, #4cfa63);
-  -webkit-background-clip: text; */
-  background-color: #504bff;
-  width: 0%;
+  background-color: #ff1456;
+  width: 0;
   height: 3px;
   position: absolute;
-  transition: width .20s ease-out;
+  transition: width .12s ease-out, background-color .20s ease-in, transform .12s ease-in-out;
   will-change: width;
   bottom: 0;
 }
 
-/* .sidenav div a::before {
-  left: 50%;
-  transform: translateX(-50%);
-} */
-
-.sidenav div a::after {
-  right: 50%;
-  /* transform: translateX(50%); */
+.sidenav div a::before {
+  left: 0;
 }
 
-.sidenav div a:hover::after,
 .sidenav div a:hover::before {
-  width: 100%;
+  width: 80%;
   transition-duration: .35s;
+  background-color: #504bff;
+  transform: translateX(2%);
 }
 
 .sidenav div a:hover {
     color: #f1f1f1;
+}
+
+@keyframes bg-color {
+  0% { color: var(--verde) }
+  25% { color: var(--vermelho) }
+  50% { color: #ECF0F1 }
+  75% { color: #007788 }
+  100% { color: var(--verde) }
 }
 
 #main {

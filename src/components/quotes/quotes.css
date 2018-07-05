@@ -1,0 +1,42 @@
+.quotes-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.quotes {
+    font-family: Lato;
+    font-size: 1.8em;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: var(--vermelho);
+    display: inline-block;
+    text-align: left;
+}
+
+.quotes:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    font-family: Georgia;
+    color: var(--vermelho);
+}
+
+.quotes cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.quotes cite:before {
+    content: "\2014 \2009";
+}

@@ -3,8 +3,8 @@
   background-image: linear-gradient(#eee .1em, transparent .1em);
   background-size: 100% 1.2em;
   padding: 16px;
-  max-width: 350px;
-  min-width: 350px;
+  max-width: 400px;
+  min-width: 400px;
   margin: 10px 4px 4px 0px;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.3),
               inset 0 0 10px rgba(0, 0, 0, 0.3);
@@ -39,5 +39,5 @@
 }
 
 .box ul li {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }

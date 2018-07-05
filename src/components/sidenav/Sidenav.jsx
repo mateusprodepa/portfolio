@@ -15,7 +15,7 @@ class Sidenav extends Component {
           }}>
           <a href="#teste">Início</a>
           <a href="#teste">Quem sou eu?</a>
-          <a href="#teste">Projetos que faço parte</a>
+          <a href="#teste">Projetos</a>
           <a href="#teste">Contato</a>
         </div>
       </div>

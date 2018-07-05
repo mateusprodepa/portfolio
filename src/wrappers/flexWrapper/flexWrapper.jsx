@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './flexWrapper.css';
 
 const flexWrapper = (props) => {
   return (
     <div
-      class="flexWrapper"
+      className="flexWrapper"
       style={{
         display: 'flex',
         flexDirection: props.direction,
